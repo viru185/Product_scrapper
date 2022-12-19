@@ -1,0 +1,64 @@
+product_name:
+    css: h1.a-size-large
+    xpath: '//h1[contains(concat(" ",normalize-space(@class)," ")," a-size-large ")]'
+    type: Text
+item_price:
+    css: '#corePrice_feature_div > div > span.a-price.aok-align-center > span.a-offscreen'
+    xpath: '//*[@id="corePrice_feature_div"]/div/span[1]/span[1]'
+    type: Text
+item_price_one_time_purchase:
+    css: 'span.a-price.a-size-base span:nth-of-type(2)'
+    xpath: '//span[contains(concat(" ",normalize-space(@class)," ")," a-price ")][contains(concat(" ",normalize-space(@class)," ")," a-size-base ")]//span[2]'
+    type: Text
+item_category:
+    css: 'div.a-subheader ul.a-unordered-list'
+    xpath: '//div[contains(concat(" ",normalize-space(@class)," ")," a-section ")][contains(concat(" ",normalize-space(@class)," ")," a-spacing-none ")][contains(concat(" ",normalize-space(@class)," ")," a-padding-medium ")]'
+    type: Text
+item_specifications:
+    css: '#product-specification-table tr'
+    xpath: null
+    multiple: true
+    type: Text
+    children:
+        key:
+            css: th.a-span4
+            xpath: null
+            multiple: true
+            type: Text
+        value:
+            css: td
+            xpath: null
+            multiple: true
+            type: Text
+technical_details:
+    css: '#productDetails_techSpec_section_1 tr'
+    xpath: null
+    multiple: true
+    type: Text
+    children:
+        key:
+            css: th.a-color-secondary
+            xpath: null
+            multiple: true
+            type: Text
+        value:
+            css: td.a-size-base
+            xpath: null
+            multiple: true
+            type: Text
+additional_information:
+    css: '#productDetails_detailBullets_sections1 tr'
+    xpath: null
+    multiple: true
+    type: Text
+    children:
+        key:
+            css: th
+            xpath: null
+            multiple: true
+            type: Text
+        value:
+            css: td
+            xpath: null
+            multiple: true
+            type: Text
