@@ -1,0 +1,22 @@
+products:
+    css: div.product-cell-container
+    xpath: null
+    multiple: true
+    type: Text
+    children:
+        name:
+            css: a.absolute-link
+            xpath: null
+            multiple: true
+            type: Attribute
+            attribute: title
+        price:
+            css: 'span.price bdi'
+            xpath: null
+            multiple: true
+            type: Text
+        url:
+            css: a.absolute-link
+            xpath: null
+            multiple: true
+            type: Link

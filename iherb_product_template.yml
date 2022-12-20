@@ -1,0 +1,9 @@
+product_details:
+    css: 'div.product-detail-container div section.column li'
+    xpath: null
+    multiple: true
+    type: Text
+product_overview:
+    css: div.container.product-overview
+    xpath: null
+    type: Text
