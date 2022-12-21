@@ -133,3 +133,5 @@ dmypy.json
 *.json
 xtra/
 progress.txt
+test.py
+.vscode/
