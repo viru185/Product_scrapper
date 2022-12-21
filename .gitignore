@@ -161,8 +161,9 @@ cython_debug/
 
 # My custom ignore files for this project
 *.json
-xtra/
 progress.txt
-.vscode/
 test.py
 test_data.json
+.vscode/
+xtra/
+backup/
