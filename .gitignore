@@ -163,5 +163,6 @@ cython_debug/
 *.json
 xtra/
 progress.txt
-test.py
 .vscode/
+test.py
+test_data.json

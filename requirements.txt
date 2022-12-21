@@ -1,0 +1,5 @@
+selectorlib
+progressbar2
+fake-useragent
+gTTS
+playsound
