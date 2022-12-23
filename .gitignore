@@ -160,7 +160,9 @@ cython_debug/
 #.idea/
 
 # My custom ignore files for this project
-*.json
+# to remove tracked file
+# git ls-files -c --ignored --exclude-standard -z | xargs -0 git rm --cached
+*.jsonl
 progress.txt
 test.py
 test_data.json
